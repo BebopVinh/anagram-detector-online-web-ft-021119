@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(array)
-    array.each(&:downcase!)
+    array.each do |word_element|
+      x = word_element
   end
 end
