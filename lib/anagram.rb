@@ -10,4 +10,5 @@ class Anagram
 
   def match(array)
     array.each(&:downcase!)
+  end
 end
