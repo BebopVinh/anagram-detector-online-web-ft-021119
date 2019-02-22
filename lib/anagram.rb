@@ -6,5 +6,6 @@ class Anagram
     @word = word
   end
 
-  def self.match
+  def match(array)
+    array.each(&:downcase!)
 end
