@@ -1,2 +1,6 @@
 # Your code goes here!
-def
+class Anagram
+  attr_reader :word
+
+  def initialize()
+end
